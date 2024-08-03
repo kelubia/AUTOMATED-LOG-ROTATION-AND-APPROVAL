@@ -1,5 +1,5 @@
-# AUTOMATED-LOG-ROTATION-AND-APPROVAL
-Scenario:
+# AUTOMATED LOG ROTATION AND APPROVAL SCRIPT
+
 I was tasked with creating a bash script to automate the deletion of unnecessary Java application logs. These logs, used by the client to debug application-level errors, must be managed to free up space on the server and prevent system slowdowns. The script is designed to delete logs older than 15 days to one month and is scheduled to run automatically at midnight. Additionally, it notifies the admin and requests approval before execution.
 
 Steps Involved:
